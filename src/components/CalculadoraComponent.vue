@@ -109,13 +109,9 @@ export default {
       this.output= `${this.operation(this.previousValue, this.output)}`;
       this.previousValue=null;
     }
-
   }
 }
 </script>
-
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .output{
   background-color: #42b983;
